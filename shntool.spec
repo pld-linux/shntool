@@ -1,14 +1,13 @@
 Summary:	Multi-purpose WAV and SHN file processing and reporting utility
 Summary(pl):	Wielofunkcyjne narzêdzie raportuj±ce i konwertuj±ce pliki WAV i SHN
 Name:		shntool
-Version:	1.2.3
+Version:	2.0.3
 Release:	1
 Vendor:		Jason Jordan <shnutils@freeshell.org>
 License:	GPL
 Group:		Applications/Sound
 Source0:	http://shnutils.freeshell.org/shntool/source/%{name}-%{version}.tar.gz
-# Source0-md5:	3efbb71b94f5e285daecfe137114873d
-Patch0:		%{name}-DESTDIR.patch
+# Source0-md5:	7cdc5049023067fa532ef7010c187349
 BuildRequires:	autoconf
 BuildRequires:	automake
 Requires:	flac
@@ -33,7 +32,6 @@ CD, jak równie¿ strumieniow± konwersjê plików SHN do innych formatów
 
 %prep
 %setup -q
-%patch0 -p1
 
 %build
 %{__aclocal}
@@ -53,6 +51,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc ChangeLog doc/*
+%doc AUTHORS ChangeLog doc/* README 
 %attr(755,root,root) %{_bindir}/*
 %{_mandir}/man1/*.1*
