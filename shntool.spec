@@ -11,8 +11,8 @@ Source0:	http://shnutils.freeshell.org/shntool/source/%{name}-%{version}.tar.gz
 Patch0:		%{name}-DESTDIR.patch
 BuildRequires:	autoconf
 BuildRequires:	automake
-Requires:	shorten
 Requires:	flac
+Requires:	shorten
 Requires:	sox
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -42,13 +42,12 @@ CD, jak równie¿ strumieniow± konwersjê plików SHN do innych formatów
 %{__automake}
 %{__autoconf}
 %configure
-
 %{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT
-
-%{__make} install DESTDIR=$RPM_BUILD_ROOT
+%{__make} install \
+	DESTDIR=$RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
