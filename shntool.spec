@@ -6,7 +6,7 @@ Release:	1
 Vendor:		Jason Jordan <shnutils@freeshell.org>
 License:	GPL
 Group:		Applications/Sound
-Source0:	http://shnutils.freeshell.org/shntool/%{name}-%{version}.tar.gz
+Source0:	http://shnutils.freeshell.org/shntool/source/%{name}-%{version}.tar.gz
 # Source0-md5:	3efbb71b94f5e285daecfe137114873d
 Patch0:		%{name}-DESTDIR.patch
 BuildRequires:	autoconf
