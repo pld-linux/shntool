@@ -1,5 +1,5 @@
-Summary:	Multi-purpose WAV and SHN file processing and reporting utility.
-Summary(pl):	Wielofunkcyjne narzêdzie raportuj±ce i konwertuj±ce pliki WAV i SHN.
+Summary:	Multi-purpose WAV and SHN file processing and reporting utility
+Summary(pl):	Wielofunkcyjne narzêdzie raportuj±ce i konwertuj±ce pliki WAV i SHN
 Name:		shntool
 Version:	1.2.3
 Release:	1
@@ -23,7 +23,6 @@ WAVE and SHN files, correct files which are not properly
 CD-sector-aligned, and stream SHN files to different formats (such as
 WAV, FLAC or AIFF).
 
-
 %description -l pl
 Shntool jest wielofunkcyjnym narzêdziem do odtwarzania i wy¶wietlania
 raportów o plikach w formacie Shorten i WAVE. Umo¿liwia wy¶wietlanie
@@ -31,7 +30,6 @@ informacji o rozmiarze i czasie trwania plików WAV i SHN, korygowanie
 plików, które nie s± prawid³owo wyrównane do wielko¶ci sektora p³yty
 CD, jak równie¿ strumieniow± konwersjê plików SHN do innych formatów
 (takich jak WAV, FLAC lub AIFF).
-
 
 %prep
 %setup -q
@@ -46,6 +44,7 @@ CD, jak równie¿ strumieniow± konwersjê plików SHN do innych formatów
 
 %install
 rm -rf $RPM_BUILD_ROOT
+
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 
