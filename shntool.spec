@@ -26,7 +26,7 @@ WAV, FLAC or AIFF).
 
 %description -l pl
 Shntool jest wielofunkcyjnym narzêdziem do odtwarzania i wy¶wietlania
-raportów o plikach w formacie Shorten i WAVE. Umo¿liwia wy¶witlanie
+raportów o plikach w formacie Shorten i WAVE. Umo¿liwia wy¶wietlanie
 informacji o rozmiarze i czasie trwania plików WAV i SHN, korygowanie
 plików, które nie s± prawid³owo wyrównane do wielko¶ci sektora p³yty
 CD, jak równie¿ strumieniow± konwersjê plików SHN do innych formatów
