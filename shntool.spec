@@ -8,6 +8,7 @@ License:	GPL
 Group:		Applications/Sound
 Source0:	http://shnutils.freeshell.org/shntool/source/%{name}-%{version}.tar.gz
 # Source0-md5:	7cdc5049023067fa532ef7010c187349
+URL:		http://www.etree.org/shnutils/shntool/
 BuildRequires:	autoconf
 BuildRequires:	automake
 Requires:	flac
