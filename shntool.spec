@@ -3,8 +3,7 @@ Summary(pl):	Wielofunkcyjne narzêdzie raportuj±ce i konwertuj±ce pliki WAV i SHN
 Name:		shntool
 Version:	2.0.3
 Release:	1
-Vendor:		Jason Jordan <shnutils@freeshell.org>
-License:	GPL
+License:	GPL v2
 Group:		Applications/Sound
 Source0:	http://shnutils.freeshell.org/shntool/source/%{name}-%{version}.tar.gz
 # Source0-md5:	7cdc5049023067fa532ef7010c187349
