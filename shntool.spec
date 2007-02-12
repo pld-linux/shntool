@@ -1,5 +1,5 @@
 Summary:	Multi-purpose WAV and SHN file processing and reporting utility
-Summary(pl):	Wielofunkcyjne narzêdzie raportuj±ce i konwertuj±ce pliki WAV i SHN
+Summary(pl.UTF-8):   Wielofunkcyjne narzÄ™dzie raportujÄ…ce i konwertujÄ…ce pliki WAV i SHN
 Name:		shntool
 Version:	2.0.3
 Release:	1
@@ -22,12 +22,12 @@ WAVE and SHN files, correct files which are not properly
 CD-sector-aligned, and stream SHN files to different formats (such as
 WAV, FLAC or AIFF).
 
-%description -l pl
-Shntool jest wielofunkcyjnym narzêdziem do odtwarzania i wy¶wietlania
-raportów o plikach w formacie Shorten i WAVE. Umo¿liwia wy¶wietlanie
-informacji o rozmiarze i czasie trwania plików WAV i SHN, korygowanie
-plików, które nie s± prawid³owo wyrównane do wielko¶ci sektora p³yty
-CD, jak równie¿ strumieniow± konwersjê plików SHN do innych formatów
+%description -l pl.UTF-8
+Shntool jest wielofunkcyjnym narzÄ™dziem do odtwarzania i wyÅ›wietlania
+raportÃ³w o plikach w formacie Shorten i WAVE. UmoÅ¼liwia wyÅ›wietlanie
+informacji o rozmiarze i czasie trwania plikÃ³w WAV i SHN, korygowanie
+plikÃ³w, ktÃ³re nie sÄ… prawidÅ‚owo wyrÃ³wnane do wielkoÅ›ci sektora pÅ‚yty
+CD, jak rÃ³wnieÅ¼ strumieniowÄ… konwersjÄ™ plikÃ³w SHN do innych formatÃ³w
 (takich jak WAV, FLAC lub AIFF).
 
 %prep
