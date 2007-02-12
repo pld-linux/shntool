@@ -1,5 +1,5 @@
 Summary:	Multi-purpose WAV and SHN file processing and reporting utility
-Summary(pl.UTF-8):   Wielofunkcyjne narzędzie raportujące i konwertujące pliki WAV i SHN
+Summary(pl.UTF-8):	Wielofunkcyjne narzędzie raportujące i konwertujące pliki WAV i SHN
 Name:		shntool
 Version:	2.0.3
 Release:	1
