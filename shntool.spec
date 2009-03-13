@@ -1,12 +1,12 @@
 Summary:	Multi-purpose WAV and SHN file processing and reporting utility
 Summary(pl.UTF-8):	Wielofunkcyjne narzędzie raportujące i konwertujące pliki WAV i SHN
 Name:		shntool
-Version:	3.0.6
+Version:	3.0.8
 Release:	1
 License:	GPL v2
 Group:		Applications/Sound
 Source0:	http://www.etree.org/shnutils/shntool/dist/src/%{name}-%{version}.tar.gz
-# Source0-md5:	bff71ee49d4d678dbd17f74ec7b299f5
+# Source0-md5:	916a5a8625288a5f9edc2ef3567f51d8
 URL:		http://www.etree.org/shnutils/shntool/
 BuildRequires:	autoconf
 BuildRequires:	automake
