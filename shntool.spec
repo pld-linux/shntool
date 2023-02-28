@@ -5,9 +5,9 @@ Version:	3.0.10
 Release:	1
 License:	GPL v2
 Group:		Applications/Sound
-Source0:	http://www.etree.org/shnutils/shntool/dist/src/%{name}-%{version}.tar.gz
+Source0:	http://shnutils.freeshell.org/shntool/dist/src/%{name}-%{version}.tar.gz
 # Source0-md5:	5d41f8f42c3c15e3145a7a43539c3eae
-URL:		http://www.etree.org/shnutils/shntool/
+URL:		http://shnutils.freeshell.org/shntool/
 BuildRequires:	autoconf
 BuildRequires:	automake
 Requires:	flac
@@ -52,5 +52,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc AUTHORS ChangeLog doc/* README 
-%attr(755,root,root) %{_bindir}/*
-%{_mandir}/man1/*.1*
+%attr(755,root,root) %{_bindir}/shn*
+%{_mandir}/man1/shntool.1*
