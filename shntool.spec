@@ -10,11 +10,14 @@ Source0:	http://shnutils.freeshell.org/shntool/dist/src/%{name}-%{version}.tar.g
 URL:		http://shnutils.freeshell.org/shntool/
 BuildRequires:	autoconf
 BuildRequires:	automake
+Suggests:	alac_decoder
 Suggests:	flac
+Suggests:	kexis
 Suggests:	shorten
 Suggests:	sox
 Suggests:	wavpack
-# alac, kexis, mp4als, mac (ape), bonk, la, lpac, mkwcon (mkw), ofr, takc (tak), ttaenc (tta)
+# TODO: mp4als, mac (.ape), bonk, la, lpac, ofr, ttaenc (tta)
+# mkwcon (.mkw) and takc (.tak) are win32-only
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
