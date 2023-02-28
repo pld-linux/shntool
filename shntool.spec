@@ -10,9 +10,11 @@ Source0:	http://shnutils.freeshell.org/shntool/dist/src/%{name}-%{version}.tar.g
 URL:		http://shnutils.freeshell.org/shntool/
 BuildRequires:	autoconf
 BuildRequires:	automake
-Requires:	flac
-Requires:	shorten
-Requires:	sox
+Suggests:	flac
+Suggests:	shorten
+Suggests:	sox
+Suggests:	wavpack
+# alac, kexis, mp4als, mac (ape), bonk, la, lpac, mkwcon (mkw), ofr, takc (tak), ttaenc (tta)
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
